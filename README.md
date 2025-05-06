@@ -9,7 +9,7 @@ To write a Python program for the Construction and Reconctruction of Flat-Top Sa
 * Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
 
 ## Program
-
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -79,7 +79,7 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
-
+```
 ## Output Waveform
 ![image](https://github.com/user-attachments/assets/d12d66bd-8b22-438f-9529-937c7623e78c)
 
